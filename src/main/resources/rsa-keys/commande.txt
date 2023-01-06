@@ -1,0 +1,4 @@
+keytool -genkey -alias gen-jwt-rsa-poc -keyalg RSA -keystore keystore.jks  -keysize 2048
+
+ps : -alias gen-jwt-rsa-poc => choisir un alias unique pour le keystore
+ps : lors de l'exécution de cette commande sur CMD, tu dois choisir un mot de passe pour le keystore (en même temps pour visualiser la clé privée; c'est le même) : à ne pas l'oublier
